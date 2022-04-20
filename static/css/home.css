@@ -1,1 +1,54 @@
 
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+/* C:\Users\ambika sadh\Desktop\ALL projects\Python PROJECTS\E-School\school_learning_management-main\teaching_blog\ */
+#intro {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),url("/static/Images/home.jpg"),no-repeat center center fixed;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* make nav bar same as image color */
+.bg-light{
+    background-color:transparent !important;
+    transition:0.5s ease;
+    }
+ 
+    /* Change the coloour of nav bar when scroll */
+      .bg-light.scrolled{
+        background-color: rgb(36, 32, 32) !important;
+      } 
+
+
+      hr{
+        border-color: inherit;
+      }
+
+ 
+ .page-footer{
+     color: aliceblue;
+ }
+
+
+/* picture bacgrounf for registeration and login  */
+#page-intro {
+    height: 100%;
+}
+
+
+#page-intro {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/Images/escl.jpg"),no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} 
+
