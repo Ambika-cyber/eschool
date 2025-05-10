@@ -1,1 +1,2 @@
-# My-School-Project
+# E-School-Project
+## Major Project 
